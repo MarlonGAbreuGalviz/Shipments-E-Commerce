@@ -1,4 +1,4 @@
-package cl.fullstack.shipments;
+package com.fullstack.shipments;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

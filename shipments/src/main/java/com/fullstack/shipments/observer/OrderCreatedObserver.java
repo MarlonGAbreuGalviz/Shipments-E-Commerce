@@ -1,9 +1,10 @@
-package cl.fullstack.shipments.observer;
+package com.fullstack.shipments.observer;
 
-import cl.fullstack.shipments.event.OrderCreatedEvent;
-import cl.fullstack.shipments.service.ShipmentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.fullstack.shipments.event.OrderCreatedEvent;
+import com.fullstack.shipments.service.ShipmentService;
 
 @RestController
 @RequestMapping("/api/shipments/observer")

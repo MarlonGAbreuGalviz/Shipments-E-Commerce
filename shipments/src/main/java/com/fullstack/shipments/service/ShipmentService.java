@@ -1,10 +1,10 @@
-package cl.fullstack.shipments.service;
-
-import cl.fullstack.shipments.event.OrderCreatedEvent;
-import cl.fullstack.shipments.model.Shipment;
+package com.fullstack.shipments.service;
 
 import java.util.List;
 import java.util.UUID;
+
+import com.fullstack.shipments.event.OrderCreatedEvent;
+import com.fullstack.shipments.model.Shipment;
 
 public interface ShipmentService {
 

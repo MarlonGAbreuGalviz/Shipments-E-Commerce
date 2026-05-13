@@ -1,10 +1,11 @@
-package cl.fullstack.shipments.controller;
+package com.fullstack.shipments.controller;
 
-import cl.fullstack.shipments.model.Shipment;
-import cl.fullstack.shipments.service.ShipmentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.fullstack.shipments.model.Shipment;
+import com.fullstack.shipments.service.ShipmentService;
 
 @RestController
 @RequestMapping("/api/shipments")

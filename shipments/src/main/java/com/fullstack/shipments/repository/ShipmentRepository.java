@@ -1,7 +1,8 @@
-package cl.fullstack.shipments.repository;
+package com.fullstack.shipments.repository;
 
-import cl.fullstack.shipments.model.Shipment;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fullstack.shipments.model.Shipment;
 
 import java.util.UUID;
 

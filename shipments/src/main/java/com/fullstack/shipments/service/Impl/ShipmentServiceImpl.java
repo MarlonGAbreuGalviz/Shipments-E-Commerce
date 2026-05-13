@@ -1,12 +1,13 @@
-package cl.fullstack.shipments.service.Impl;
+package com.fullstack.shipments.service.Impl;
 
-import cl.fullstack.shipments.service.ShipmentService;
-import cl.fullstack.shipments.event.OrderCreatedEvent;
-import cl.fullstack.shipments.model.Shipment;
-import cl.fullstack.shipments.repository.ShipmentRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
+
+import com.fullstack.shipments.event.OrderCreatedEvent;
+import com.fullstack.shipments.model.Shipment;
+import com.fullstack.shipments.repository.ShipmentRepository;
+import com.fullstack.shipments.service.ShipmentService;
 
 import java.util.List;
 import java.util.UUID;

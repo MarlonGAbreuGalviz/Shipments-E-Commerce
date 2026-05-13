@@ -1,4 +1,4 @@
-package cl.fullstack.shipments.model;
+package com.fullstack.shipments.model;
 
 import jakarta.persistence.*;
 import lombok.*;
